@@ -1,0 +1,2 @@
+# Replace tabs with commas in CSV
+xclip -o > tmp && cat tmp | tr "\t" "," > filename.csv 
