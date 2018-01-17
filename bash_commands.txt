@@ -4,3 +4,6 @@ xclip -o > tmp && cat tmp | tr "\t" "," > filename.csv
 
 #Simple script to check for BOM characters in file.
 find -type f -print0 | xargs -0 grep -l `printf '^\xef\xbb\xbf'` | sed 's/^/found BOM in: /'
+
+#command to check top process using the most memory.
+ps aux --sort=-%mem | awk 'NR<=10{print $0}'
