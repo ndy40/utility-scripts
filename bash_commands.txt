@@ -7,3 +7,7 @@ find -type f -print0 | xargs -0 grep -l `printf '^\xef\xbb\xbf'` | sed 's/^/foun
 
 #command to check top process using the most memory.
 ps aux --sort=-%mem | awk 'NR<=10{print $0}'
+
+
+#Simple Command to Find out what service is using a port 
+netstat -napl|grep <PORT_NUMBER>
