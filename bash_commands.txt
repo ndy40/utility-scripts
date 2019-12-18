@@ -11,3 +11,6 @@ ps aux --sort=-%mem | awk 'NR<=10{print $0}'
 
 #Simple Command to Find out what service is using a port 
 netstat -napl|grep <PORT_NUMBER>
+
+## Method for finding soemthing in a log file 
+grep -r ‘failed’ /<Absolute Path to>/<Log File>.log
