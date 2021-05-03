@@ -14,3 +14,7 @@ netstat -napl|grep <PORT_NUMBER>
 
 ## Method for finding soemthing in a log file 
 grep -r ‘failed’ /<Absolute Path to>/<Log File>.log
+
+
+# delete dangling docker images
+docker images -a | awk '{print $3}' | xargs docker rmi
