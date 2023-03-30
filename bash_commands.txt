@@ -18,3 +18,7 @@ grep -r ‘failed’ /<Absolute Path to>/<Log File>.log
 
 # delete dangling docker images
 docker images -a | awk '{print $3}' | xargs docker rmi
+
+
+# command to check connected USB device on a linux machine (Raspberry Pi)
+lsblk -p | grep 'disk\|part'
