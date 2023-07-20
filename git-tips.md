@@ -12,3 +12,9 @@ when to use: Lets say you have commits in your local branch you don't want to pu
 
 You can make this an alias 
 `alias current_branch="git branch | grep \* | cut -d ' ' -f2"` and call this anytime from your terminal. 
+
+## Delete local branches that have been merged in remote
+
+```
+git branch --merged main | grep -v "^\* main" | xargs -n 1 -r git branch -d
+```
