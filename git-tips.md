@@ -14,6 +14,7 @@ You can make this an alias
 `alias current_branch="git branch | grep \* | cut -d ' ' -f2"` and call this anytime from your terminal. 
 
 ## Delete local branches that have been merged in remote
+Ref: [Git remove local branches](https://digitaldrummerj.me/git-remove-local-merged-branches/)
 
 ```
 git branch --merged main | grep -v "^\* main" | xargs -n 1 -r git branch -d
