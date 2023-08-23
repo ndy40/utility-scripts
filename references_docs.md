@@ -10,3 +10,8 @@ LOGGING["loggers"].update({'django.db.backends': {
     'level': 'DEBUG',
     'handlers': ['console'],
 }})
+
+
+## Books or Web resources
+
+* [DJango Admin Cookbook](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/index.html)
