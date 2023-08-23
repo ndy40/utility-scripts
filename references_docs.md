@@ -1,3 +1,5 @@
+# Docker
+
 All things removing docker images and containers. 
 
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
@@ -17,6 +19,6 @@ LOGGING["loggers"].update({'django.db.backends': {
 ```
 
 
-## Books or Web resources
+# Books or Web resources
 
 * [DJango Admin Cookbook](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/index.html) - Everything to do with working with Django Admin Sites. 
