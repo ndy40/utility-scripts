@@ -18,6 +18,9 @@ LOGGING["loggers"].update({'django.db.backends': {
 }})
 ```
 
+## Deprecating and removing fields in Django Orm in a production environment 
+package: https://github.com/3YOURMIND/django-deprecate-fields
+
 
 # Books or Web resources
 
