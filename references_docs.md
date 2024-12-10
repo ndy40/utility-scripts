@@ -29,3 +29,6 @@ package: https://github.com/3YOURMIND/django-deprecate-fields
 
 # Webhook tool
 * https://webhook.cool/at/drab-dawn-98
+
+# Rest Postgres
+* https://github.com/PostgREST/postgrest
