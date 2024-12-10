@@ -16,3 +16,6 @@
 ## Frameworks
 
 #### React
+
+## Artificial Intelligence
+- [LlamaIndex](https://www.llamaindex.ai/)
