@@ -7,6 +7,12 @@
 
 ## Programming Languages
 
-### Elixir
+#### Elixir
+
+#### Java
+
+### Python
 
 ## Frameworks
+
+#### React
