@@ -19,3 +19,9 @@ Ref: [Git remove local branches](https://digitaldrummerj.me/git-remove-local-mer
 ```
 git branch --merged main | grep -v "^\* main" | xargs -n 1 -r git branch -d
 ```
+
+
+## List all merged branches
+usefulf for when you want delete locally branches that have been merged. 
+
+`git branch --merged  | grep -Ev "(^\*|^\+|main|dev)"`
